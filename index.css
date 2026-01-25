@@ -1,0 +1,42 @@
+ .t{
+    color:blue;
+    background-color:black;
+    margin-left: 10px;
+    padding:20px;
+    width:100px;
+    height:50px;
+ }
+ .h{
+    color:chocolate;
+    background-color:burlywood;
+    margin-left:10px;
+    padding:5px;
+ }
+ *{
+    margin:0;
+ }
+
+ .header{
+    background-color:cyan;
+    padding:10px;
+    text-align:center;
+    margin-bottom:10px;
+ }
+ .main-container{
+    background-color:cornflowerblue;
+    padding: 50px;
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+ }
+ .box{
+    background-color:bisque;
+    width:250px;
+    height:150px;
+    text-align:center;
+    border:5px solid burlywood;
+ }
+ 

@@ -1,0 +1,31 @@
+.header{
+    background-color:aliceblue;
+    padding:50px;
+    text-align:center;
+    margin-bottom:30px;
+}
+.main-container{
+    background-color:antiquewhite;
+    margin:60px;
+    padding:2p0x;
+    text-align:center;
+    display:webapps student challenges;
+    gap=50px;
+    webapps student challenges -direction:row ;
+}
+.box{
+    background-color:cadetblue;
+    width:60px;
+    height:90px;
+}
+
+.main-character2{
+    background-color:azure;
+    padding:30px;
+    text-align:center;
+}
+.box{
+    background-color:cadetblue;
+    width:60px;
+    height:90px;
+}
