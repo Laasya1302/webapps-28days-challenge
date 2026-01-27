@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            background-color:aqua;
+            gap:10px;
+            padding:10px;
+        }
+        .item{
+            background-color:bisque;
+            padding:10px;
+            text-align:center;
+        }
+        .item1{
+            grid-column-start:1;
+            grid-column-end:3;
+        }
+        .item8{
+            grid-column-start:8;
+            grid-column-end :6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item">2</div>
+         <div class="item">3</div>
+
+        <div class="item">4</div>
+         <div class="item">5</div>
+        <div class="item">6</div>
+
+     <div class="item">7</div>
+     <div class="item item8">8</div>
+     <div class="item">9</div>
+    </div>
+    
+</body>
+</html>

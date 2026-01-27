@@ -1,20 +1,4 @@
- .t{
-    color:blue;
-    background-color:black;
-    margin-left: 10px;
-    padding:20px;
-    width:100px;
-    height:50px;
- }
- .h{
-    color:chocolate;
-    background-color:burlywood;
-    margin-left:10px;
-    padding:5px;
- }
- *{
-    margin:0;
- }
+
 
  .header{
     background-color:cyan;

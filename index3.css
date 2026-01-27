@@ -9,7 +9,7 @@
     margin:60px;
     padding:2p0x;
     text-align:center;
-    display:webapps student challenges;
+    display:flex;
     gap=50px;
     webapps student challenges -direction:row ;
 }
@@ -19,7 +19,8 @@
     height:90px;
 }
 
-.main-character2{
+.main-container2{
+    display:flex;
     background-color:azure;
     padding:30px;
     text-align:center;

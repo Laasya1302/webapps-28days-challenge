@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+        display:grid;
+        grid-template-columns: repeat(7,1fr);
+        gap:10px;
+        background-color:aquamarine;
+        grid-template-areas:'h h h h h h h' 
+        'm m m b b b b'
+        'm m m b b b b'
+        'm m m f f f f';
+        padding:10px;
+
+        }
+        .h{
+            grid-area:h;
+            background-color: bisque;
+            text-align: center;
+            padding: 10px;
+        }
+        .m{
+            grid-area: m;
+            background-color: aqua;
+            text-align: center;
+            padding:10px;
+        }
+        .f{
+            grid-area: f;
+            background-color:cadetblue ;
+            text-align: center;
+            padding:10px;
+        }
+        .b{
+            grid-area: b;
+            background-color:burlywood;
+            text-align: center;
+            padding:10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="h">Head</div>
+        <div class="m">Menu</div>
+        <div class="f">Footer</div>
+        <div class="b">Body</div>
+
+    </div>
+    
+</body>
+</html>

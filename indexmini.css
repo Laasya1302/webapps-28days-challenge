@@ -21,11 +21,11 @@ body{
 .display{
     width:180px;
     height:60px;
-    background:rgb(143,140,140);
+     background: rgb(143,140,140);
     border-radius:10px;
     font-size:2rem;
     text-align:right;
-    padding:20px;
+    padding:15px;
     margin-bottom:10px;
 }
 .buttons{
