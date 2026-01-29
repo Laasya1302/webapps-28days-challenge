@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .cla1 {
+        width: 90px;
+        height:90px;
+        background-color: beige;
+        }
+        .cla2 {
+  background-color: blue;
+   width:40px;
+    height:80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cla1"></div>
+    <button onclick="change()">click</button>
+    <script>
+        function change(){
+            let e1=document.querySelector(".cla1");
+            e1.classList.add("cla2");
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            background-color:aquamarine;
+            width:200px;
+            height:120px;
+            text-align:center;
+            align-items:center;
+            padding:40px;
+            margin:90px;
+           position:absolute;
+         
+        }
+        body{
+            
+            height:90px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .h2{
+            margin-bottom:20px;
+            top:50%;
+        }
+        input{
+            width:100%;
+            padding:10px;
+            border:1px solid;
+            background-color:cornflowerblue;
+        }
+        
+        button{
+            background-color:blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>age checker</h2>
+    <input type="number" id="age"/>
+    <button onclick="check()">check</button>
+    </div>
+    <script>
+        function check(){
+            let input=document.getElementById("age");
+            let val=input.value;
+            if(val<18){
+            alert("do not vote");
+            }
+        else{
+            alert("vote");
+        }
+        }
+    </script>
+    
+</body>
+</html>

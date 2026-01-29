@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="id1">hello</p>
+    <div id="id2">
+        <p>Hi everyone</p>
+        <p>Hi everyone</p>
+        <p>Hi everyone</p>
+        
+    </div>
+    <p class="cla1">hello</p>
+    <script>
+        let ele1=document.getElementById("id1");
+        ele1.innerHTML="tree";
+        ele1.style.color="blue";
+
+        let div1=document.getElementById("id2");
+        console.log(div1.innerHTML);
+
+        div1.innerHTML="<h1>Hello inner html</h1>"
+        console.log(div1.innerHTML);
+
+        let ele3=document.querySelector(".cla1");
+    
+    </script>
+    
+</body>
+</html>
